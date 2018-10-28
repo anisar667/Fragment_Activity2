@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="@color/twiiter_logo">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="186dp"
+        android:layout_height="132dp"
+        android:foregroundGravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="65dp"
+        app:srcCompat="@drawable/twiiter_logo" />
+
+    <TextView
+        android:layout_below="@id/imageView2"
+        android:id="@+id/textView2"
+        android:layout_width="341dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="40dp"
+        android:text="Signin for Twiiter"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etemail1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@color/LightGrey"
+        android:inputType="textPersonName"
+         />
+    <TextView
+        android:layout_below="@+id/etemail1"
+        android:id="@+id/textView3"
+        android:layout_width="341dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="10dp"
+        android:text="password"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etpass1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:background="@color/Beige"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/LightGrey"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etpass1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="23dp"
+        android:background="@color/sign_twiiter"
+        android:text="SignIn" />
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">APPS LOGIN</string>
+    <string name="text1">WELLCOME TO APP SELECTION SCREEN</string>
+    <string name="facebook">click to go for facebook</string>
+    <string name="twitter">Click to go for twitter</string>
+    <string name="whatsapp">Click to go for whatsapp</string>
+</resources>
+
